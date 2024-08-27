@@ -1,0 +1,7 @@
+<svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Circular border -->
+    <circle cx="14" cy="14" r="13" fill="none" stroke="#141B34" stroke-width="1.5"/>
+
+    <!-- Original path with padding -->
+    <path d="M9 20V8L19 14L9 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

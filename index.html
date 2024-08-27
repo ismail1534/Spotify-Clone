@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Spotify - Web Player: Music for everyone</title>
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left bg-black">
+        <div class="close">
+          <img class="invert" src="close.svg" alt="" />
+        </div>
+        <div class="home bg-gray m1 p1">
+          <div class="logo">
+            <img width="120px" class="invert" src="logo.svg" alt="Logo" />
+          </div>
+          <ul>
+            <li><img class="invert" src="home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="search.svg" alt="search" />Search</li>
+          </ul>
+        </div>
+
+        <div class="library bg-gray m1 p1">
+          <div class="heading">
+            <img class="invert" src="playlist.svg" alt="playlist" />
+            <h2>Your Library</h2>
+          </div>
+          <div class="songList">
+            <ul></ul>
+          </div>
+
+          <div class="footer">
+            <a
+              href="https://www.spotify.com/pk-en/legal/"
+              data-encore-id="textLink"
+            >
+              <span data-encore-id="type">Legal</span>
+            </a>
+            <a
+              href="https://www.spotify.com/pk-en/safetyandprivacy/"
+              data-encore-id="textLink"
+            >
+              <span data-encore-id="type">Safety &amp; Privacy Center</span>
+            </a>
+            <a
+              href="https://www.spotify.com/pk-en/legal/privacy-policy/"
+              data-encore-id="textLink"
+            >
+              <span data-encore-id="type">Privacy Policy</span>
+            </a>
+            <a
+              href="https://www.spotify.com/pk-en/legal/cookies-policy/"
+              data-encore-id="textLink"
+            >
+              <span data-encore-id="type">Cookies</span>
+            </a>
+            <a
+              href="https://www.spotify.com/pk-en/legal/privacy-policy/#s3"
+              data-encore-id="textLink"
+            >
+              <span data-encore-id="type">About Ads</span>
+            </a>
+            <a
+              href="https://www.spotify.com/pk-en/accessibility/"
+              data-encore-id="textLink"
+            >
+              <span data-encore-id="type">Accessibility</span>
+            </a>
+            <a
+              draggable="false"
+              href="https://www.spotify.com/legal/cookies-policy/"
+              target="_blank"
+              rel="noopener"
+            >
+              <span data-encore-id="text">Cookies</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="right bg-gray">
+        <div class="header">
+          <div class="nav">
+            <div class="hamburgerContainer">
+              <img
+                height="40"
+                width="40"
+                class="invert hamburger"
+                src="hamburger.svg"
+                alt=""
+              />
+
+              <img class="invert" width="20px" src="left-arrow.svg" alt="" />
+              <img class="invert" width="20px" src="right-arrow.svg" alt="" />
+            </div>
+          </div>
+          <div class="btns">
+            <button class="signupbtn buttons">Sign up</button>
+            <button class="loginbtn buttons">Log in</button>
+          </div>
+        </div>
+
+        <div class="spotifyPlaylists">
+          <div class="cardContainer">
+            <div class="card">
+              <div class="play">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 20V4L19 12L5 20Z"
+                    fill="black"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+
+              <img src="1.jpg" alt="" />
+              <h1>Lorem, ipsum.</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+            </div>
+            <div class="card">
+              <div class="play">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 20V4L19 12L5 20Z"
+                    fill="black"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+
+              <img src="1.jpg" alt="" />
+              <h1>Lorem, ipsum.</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing</p>
+            </div>
+          </div>
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+
+            <div class="songinfo"></div>
+            <div class="ctrlbtns">
+              <img
+                width="35"
+                id="previous"
+                class="invert"
+                src="prevsong.svg"
+                alt=""
+              />
+              <img
+                width="35"
+                id="play"
+                class="invert"
+                src="songplay.svg"
+                alt=""
+              />
+              <img
+                width="35"
+                id="next"
+                class="invert"
+                src="nextsong.svg"
+                alt=""
+              />
+            </div>
+            <div class="songtime"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
